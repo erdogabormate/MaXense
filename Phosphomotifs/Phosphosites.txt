@@ -1,0 +1,20 @@
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;Phospho (STY);X;X;X;Phospho (STY);X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;Phospho (STY);Phospho (STY);Phospho (STY);X;X;Phospho (STY);X;X;X;X;X;X;X;Oxidation (M);Phospho (STY);X;X;Phospho (STY);Phospho (STY);X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;Oxidation (M);Phospho (STY);X
+X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;Phospho (STY);X;X;Phospho (STY);X;X;Phospho (STY)
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
+X;Phospho (STY);Phospho (STY);Phospho (STY);X;X;Phospho (STY);X;X;X;X;X;X;X;Oxidation (M);Phospho (STY);X;X;Phospho (STY);Phospho (STY);X;X;X;X;X;X;X;X;X;X;X
+X;X;X;X;X;X;X;X;X;X;X;X;X;X;X;Phospho (STY);X;X;X;X;X;X;X;X;X;X;X;X;X;X;X
