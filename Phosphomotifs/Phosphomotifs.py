@@ -4,21 +4,19 @@
 Created on Fri Sep 3  14:57:11 2021
 @author: Gabor Mate Erdo, 2021
 
-Phosphomotive 1.0 - Attributes of Phosphorylation motifs - Gabor Mate Erdo, 2022
+Phosphomotive 1.0 - Attributes of Phosphorylation motifs - Gabor Mate Erdo, 2021
 
 """
 from collections import Counter
-from itertools import repeat
 import re
 import time
-
 
 print("\n---------------------------------------\nPhosphomotive 1.0 - Statistical analysis of phosphorylation sites\n\n") 
  
 start=time.time()
 
 Peptide_list=[]
-with open ("Peptide_sequences_wholeset.txt") as f: #filename for peptide sequences
+with open ("Peptide_sequences.txt") as f: #filename for peptide sequences
     for line in f: 
         Peptide_list.append(line.strip('\n'))
 
@@ -57,6 +55,7 @@ for line in Motif_list:
             newstring+="O" 
     Motifs.append(newstring)
 
+
 for a in range(0,len(Peptide_list)):
     for i in range (0,31):
         if Motifs[a][i]=="P": 
@@ -68,38 +67,44 @@ f = open("Sequences_marked.txt", 'w')
 for a in Peptide_list:
     f.write((a+"\n").replace("'",""))
 f.close()
-print("\nA list of peptide sequences with case marked phosphorylation sites has been saved under Sequences_marked.txt")
-print(Peptide_list)
+print("\nA list of peptide sequences with case marked phosphorylation sites has been saved under Sequences_marked.txt\n\n")
+
 Motif3_list=[]  
 Motif5_list=[]
        
 for a in range(0,len(Peptide_list)):
     for i in range (0,31):
-        if i==0 and Peptide_list[a][i].islower(): Motif3_list.append("#"+Peptide_list[a][i:i+2])
-        if i==30 and Peptide_list[a][i].islower(): Motif3_list.append(Peptide_list[a][i-1:i+1]+"#")
-        if i>0 and i<30 and Peptide_list[a][i].islower(): Motif3_list.append(Peptide_list[a][i-1:i+2])
-        #if i==0 and Peptide_list[a][i].islower(): print(Peptide_list[a],Peptide_list[a][i], "#"+Peptide_list[a][i:i+2])
+        if i==0 and Peptide_list[a][i].islower(): Motif3_list.append(Peptide_list[a][i:i+2])
+        if i==31 and Peptide_list[a][i].islower(): Motif3_list.append(Peptide_list[a][i-1:i+1])
+        if i>0 and i<31 and Peptide_list[a][i].islower(): Motif3_list.append(Peptide_list[a][i-1:i+2])
+        if i==0 and Peptide_list[a][i].islower(): Motif5_list.append(Peptide_list[a][i:i+3])
+        if i==31 and Peptide_list[a][i].islower(): Motif5_list.append(Peptide_list[a][i-2:i+1])
+        if i==1 and Peptide_list[a][i].islower(): Motif5_list.append(Peptide_list[a][i-1:i+3])
+        if i==30 and Peptide_list[a][i].islower(): Motif5_list.append(Peptide_list[a][i-2:i+2])
+        if (i>1 and i<30) and Peptide_list[a][i].islower(): Motif5_list.append(Peptide_list[a][i-2:i+3])
 
-        if i==0 and Peptide_list[a][i].islower(): Motif5_list.append("##"+Peptide_list[a][i:i+3])
-        if i==30 and Peptide_list[a][i].islower(): Motif5_list.append(Peptide_list[a][i-2:i+1]+"##")
-        if i==1 and Peptide_list[a][i].islower(): Motif5_list.append("#"+Peptide_list[a][i-1:i+3])
-        if i==29 and Peptide_list[a][i].islower(): Motif5_list.append(Peptide_list[a][i-2:i+2]+"#")
-        if (i>1 and i<29) and Peptide_list[a][i].islower(): Motif5_list.append(Peptide_list[a][i-2:i+3])
+for i in range (0, len(Motif3_list)):
+    if len(Motif3_list[i])==2 and Motif3_list[i][1].islower(): Motif3_list[i]=Motif3_list[i]+"#"
+    if len(Motif3_list[i])==2 and Motif3_list[i][0].islower(): Motif3_list[i]="#"+Motif3_list[i]
 
-for i in range (0,5):
-    cnt = Counter()
-    for motif in Motif5_list:
-        cnt[motif[i]]+=1
-    print('Position',i-2,'consensus motif:',cnt)
-print("\n")
-for i in range (0,3):
-    cnt = Counter()
-    for motif in Motif3_list:
-        cnt[motif[i]]+=1
-    print('Position',i-1,'consensus motif:',cnt)
+for i in range (0, len(Motif5_list)):
+    if len(Motif5_list[i])==4 and Motif5_list[i][3].islower(): Motif5_list[i]=Motif5_list[i]+"#"
+    if len(Motif5_list[i])==4 and Motif5_list[i][0].islower(): Motif5_list[i]="#"+Motif5_list[i]
+    if len(Motif5_list[i])==4 and Motif5_list[i][2].islower(): Motif5_list[i]=Motif5_list[i]+"#"
+    if len(Motif5_list[i])==4 and Motif5_list[i][1].islower(): Motif5_list[i]="#"+Motif5_list[i]
+    
+    if len(Motif5_list[i])==3 and Motif5_list[i][2].islower(): Motif5_list[i]=Motif5_list[i]+"##"
+    if len(Motif5_list[i])==3 and Motif5_list[i][0].islower(): Motif5_list[i]="##"+Motif5_list[i]
 
-print(len(Motif3_list),len(Motif5_list), len(Peptide_list))
-print('-------XXX--------')
+cnt = Counter()
+for motif in Motif3_list:
+          if len(motif)!=3: print(motif)
+          cnt[motif]+=1
+
+cnt = Counter()
+for motif in Motif5_list:
+          if len(motif)!=5: print(motif)
+          cnt[motif]+=1
 
 cnt = Counter()
 for peptide in Peptide_list:
@@ -166,12 +171,11 @@ for motif in Motif5_list:
     Polarity5_list.append(new_polaritymotif)
     Hydrophobicity5_list.append(new_hydrophobicitymotif)
 
-                
-#print("Acidity (A: Acidic, N: Neutral, B: Basic)\n-----------------------------------------\n",Acidity3_list, len(Acidity3_list),"\n")
-#print("Class (L: Aliphatic, R: Aromatic, B: Basic, A: Acidic, N: Amine, S: Sulfur Containing, H: Hydroxyl containing C: Circular)\n-----------------------------------------\n",Class3_list, len(Class3_list),"\n")
-#print("Charge (C: Charged, N: Not charged)\n-----------------------------------------\n",Charge3_list, len(Charge3_list),"\n")
-#print("Polarity (P: Polar, N: Not polar)\n-----------------------------------------\n",Polarity3_list, len(Polarity3_list),"\n")
-#print("Hydrophobicity (H: Strongly hydrophobic, h: Hydrophobic, N: neutral, W: Hydrophilic)\n-----------------------------------------\n",Hydrophobicity3_list, len(Hydrophobicity3_list),"\n")
+cnt = Counter()
+for motif in Motif3_list:
+      cnt[motif[2]]+=1
+print("Most common motifs of length 3:\n",cnt.most_common(27))
+
 
 print("Amino acid motifs\n--------------------------\n")
 cnt = Counter()
@@ -182,7 +186,7 @@ print("Unique motifs of length 3:",len(cnt))
 cnt = Counter()
 for motif in Motif5_list:
       cnt[motif]+=1
-print("Most common motifs of length 5:\n",cnt.most_common(10),"\n")
+print("\nMost common motifs of length 5:\n",cnt.most_common(10))
 print("Unique motifs of length 5:",len(cnt))
 
 
@@ -195,8 +199,8 @@ print("Unique motifs of length 3:",len(cnt))
 cnt = Counter()
 for motif in Acidity5_list:
       cnt[motif]+=1
-print("Most common Acidity motifs of length 5:\n",cnt.most_common(10),"\n")
-print("Unique motifs of length 5:",len(cnt))
+print("\nMost common Acidity motifs of length 5:\n",cnt.most_common(10))
+print("Unique motifs of length 5:",len(cnt),"\n\n")
 
 print("Class (L: Aliphatic, R: Aromatic, B: Basic, A: Acidic, N: Amine, S: Sulfur Containing, H: Hydroxyl containing C: Circular)\n--------------------------\n")
 cnt = Counter()
@@ -207,10 +211,10 @@ print("Unique motifs of length 3:",len(cnt))
 cnt = Counter()
 for motif in Class5_list:
       cnt[motif]+=1
-print("Most common Class motifs of length 5:\n",cnt.most_common(10),"\n")
-print("Unique motifs of length 5:",len(cnt))
+print("\nMost common Class motifs of length 5:\n",cnt.most_common(10))
+print("Unique motifs of length 5:",len(cnt),"\n\n")
 
-print("Charge (C: Charged, N: Not charged\n--------------------------\n")
+print("Charge (C: Charged, N: Not charged)\n--------------------------\n")
 cnt = Counter()
 for motif in Charge3_list:
       cnt[motif]+=1
@@ -219,8 +223,8 @@ print("Unique motifs of length 3:",len(cnt))
 cnt = Counter()
 for motif in Charge5_list:
       cnt[motif]+=1
-print("Most common Charge motifs of length 5:\n",cnt.most_common(10),"\n")
-print("Unique motifs of length 5:",len(cnt))
+print("\nMost common Charge motifs of length 5:\n",cnt.most_common(10))
+print("Unique motifs of length 5:",len(cnt),"\n\n")
 
 print("Polarity (P: Polar, N: Not polar)\n--------------------------\n")
 cnt = Counter()
@@ -231,8 +235,8 @@ print("Unique motifs of length 5:",len(cnt))
 cnt = Counter()
 for motif in Polarity5_list:
       cnt[motif]+=1
-print("Most common Polarity motifs of length 5:\n",cnt.most_common(10),"\n")
-print("Unique motifs of length 5:",len(cnt))
+print("\nMost common Polarity motifs of length 5:\n",cnt.most_common(10))
+print("Unique motifs of length 5:",len(cnt),"\n\n")
 
 print("Hydrophobicity (H: Strongly hydrophobic, h: Hydrophobic, N: neutral, W: Hydrophilic)\n--------------------------\n")
 cnt = Counter()
@@ -243,8 +247,8 @@ print("Unique motifs of length 3:",len(cnt))
 cnt = Counter()
 for motif in Hydrophobicity5_list:
       cnt[motif]+=1
-print("Most common Hydrophobicity motifs of length 5:\n",cnt.most_common(10),"\n")
-print("Unique motifs of length 5:",len(cnt))
+print("\nMost common Hydrophobicity motifs of length 5:\n",cnt.most_common(10))
+print("Unique motifs of length 5:",len(cnt),"\n\n")
 
 
 end=time.time()
