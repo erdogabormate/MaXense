@@ -1,0 +1,76 @@
+Cancer
+tumor
+growth
+prolif
+metastas
+carci
+hyperplasia
+dysplasia
+invas
+immature cell
+tissue identit
+malignant
+invasive
+cancer
+neoplas
+onco
+oncocyt
+growth supressor evasion
+immortality
+imatinib
+blastoma
+cytoma
+leukemia
+glioma
+melanoma
+lymphoma
+cellular atypia
+adenoma
+PTEN
+intravas
+extravas
+#Lung Cancer
+SOX2
+TP53
+DDP
+a549/cddp
+a549cddp
+nsclc
+cisplatin
+RAS gene
+RAS sign
+TGF-β
+TGFβ
+MAPK
+STAT 
+APC
+HH sign
+Chromatin modification
+EGFR
+EBBR2
+cyclin-dependent kinase
+anti-CTLA4
+telomerase inhib
+HGF/c-Met
+PARP
+aerobic glycolysis
+HMGA
+# https://pubmed.ncbi.nlm.nih.gov/19912656/
+p53
+KRAS
+MAPK
+SIRT1
+SIRT2
+BCL2
+CDK4
+CDK6
+mIR-34a
+miR-21
+TIMP3
+WNT
+PDCD4
+RECk
+ZEB1
+ZEB2
+EMT promotion
+ECM breakdown

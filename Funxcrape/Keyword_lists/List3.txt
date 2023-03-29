@@ -1,0 +1,49 @@
+Inflammation & Immune response
+inflam
+microbicid
+tumoricid
+cyclooxygenase-2
+COX-2
+p38
+MAPK
+TNF-α
+mitogen-activated
+necrosis
+immun
+C-Reactive Protein
+CRP
+Serum Amyloid A
+SAA
+Myeloperoxidase
+MPO
+Interleukin-1β
+IL -1β
+Interleukin-6
+IL-6
+IL-8
+CXCL8
+Monocyte Chemotactic Protein-
+MCP-
+CCL2
+CCL13
+CCL4
+CCL5
+Macrophage Inflammatory Protein-1β
+MIP-1β
+Interferon-inducible T cell Alpha-Chemoattractant
+I-TAC
+CXCL11
+Intercellular Adhesion Molecule
+ICAM-1
+ICAM-3
+CD54
+CD50
+Vascular Cell Adhesion Molecule-1
+VCAM-1
+CD106
+E-selectin
+CD62E
+Matrix Metalloproteinase-
+MMP-1
+MMP-9
+IGFBP-1

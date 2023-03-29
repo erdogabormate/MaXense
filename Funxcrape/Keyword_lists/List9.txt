@@ -1,0 +1,62 @@
+Autophagy
+autophag
+cell death
+catabol
+dissimilat
+membrane fusion
+membrane curvature sensing
+lipid vesicle tethering
+energy homeostasis
+aging
+p62
+SQSTM1
+sequestosom
+# initiation
+ULK1
+ULK2
+ATG13
+FIP200
+ATG101
+CVT
+cytoplasm to vacuole
+# Nucleation-Elongation-Maturation
+PI3K
+Beclin1
+UVRAG
+VPS34
+VPS15
+ATG14L
+Barkor
+ATG16L
+RB1CC1
+ATG2A
+ATG2B
+ATG9A
+ATG4
+WIPI1
+WIPI2
+WIPI3
+WIPI4
+phagophor
+# Fusion-Degradation
+ATG12
+ATG5
+ATG7
+LC3
+degradation
+lysosome
+# triggers
+starvation
+depletion
+oxidative stress
+metabolic stress
+protein aggregates
+hypoxia
+proteasome inhib
+growth factor depriv
+nutrient depriv
+# cancer promotion related functions
+mitochondri
+DNA damage
+genome stability
+dormancy

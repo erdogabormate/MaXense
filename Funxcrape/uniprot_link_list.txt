@@ -1,0 +1,21 @@
+http://www.uniprot.org/uniprotkb/P51660/entry
+http://www.uniprot.org/uniprotkb/P19096/entry
+http://www.uniprot.org/uniprotkb/P54923/entry
+http://www.uniprot.org/uniprotkb/Q8BFP9/entry
+http://www.uniprot.org/uniprotkb/Q99JT9/entry
+http://www.uniprot.org/uniprotkb/Q9DCT1/entry
+http://www.uniprot.org/uniprotkb/Q9DAK9/entry
+http://www.uniprot.org/uniprotkb/Q9CQV8/entry
+http://www.uniprot.org/uniprotkb/P61982/entry
+http://www.uniprot.org/uniprotkb/P63101/entry
+http://www.uniprot.org/uniprotkb/Q9DBL9/entry
+http://www.uniprot.org/uniprotkb/Q9Z1T6/entry
+http://www.uniprot.org/uniprotkb/P16330/entry
+http://www.uniprot.org/uniprotkb/Q9CQ62/entry
+http://www.uniprot.org/uniprotkb/P11928/entry
+http://www.uniprot.org/uniprotkb/P62192/entry
+http://www.uniprot.org/uniprotkb/P54775/entry
+http://www.uniprot.org/uniprotkb/P46471/entry
+http://www.uniprot.org/uniprotkb/Q9Z2X2/entry
+http://www.uniprot.org/uniprotkb/Q9WVJ2/entry
+http://www.uniprot.org/uniprotkb/G3UZQ1/entry, http://www.uniprot.org/uniprotkb/G3UZQ1_MOUSE/entry, http://www.uniprot.org/uniprotkb/Q0VGT5/entry, http://www.uniprot.org/uniprotkb/Q0VGT5_MOUSE/entry, http://www.uniprot.org/uniprotkb/Q3U1Z5/entry, http://www.uniprot.org/uniprotkb/GPSM3_MOUSE/entry

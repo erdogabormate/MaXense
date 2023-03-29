@@ -1,0 +1,61 @@
+Angiogenesis
+vascul
+angio
+vaso
+vessel
+arteri
+VEGF
+pericyte
+venule
+capill
+heparanase
+basement membrane
+MMP
+matrix metalloproteinase
+metallo-endopeptidase
+hollow tube
+canalisation
+blood flow
+galectin-2
+PECAM-1
+VE-cadherin
+lumen
+pericyte
+astrocyte
+vescicul
+vacuol
+transcytosis
+BBB
+CBF
+smooth muscle
+end foot
+pinocytot
+tight junction
+focal hemorr
+integrin
+CX43
+epidermal growth factor
+estrogen
+interleukin 8
+IL-8
+IL-12
+prostaglandin
+TNF-α
+granulocyte colony-stimulating factor
+bFGF
+TGF-β1
+ERK
+p38
+p125FAK
+Bcl-2
+Ang1
+Ang2
+ephrin-B2
+ephB4
+PDGF
+TSP-1
+CD36
+αvβ3
+HLGAG
+Endostatin
+Calreticulin

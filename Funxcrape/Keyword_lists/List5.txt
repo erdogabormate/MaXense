@@ -1,0 +1,45 @@
+Radiotolerance
+repair
+double-strand break
+DSB
+radi
+ioniz
+IRIF
+thermotoler
+#post-therapy https://pubmed.ncbi.nlm.nih.gov/15144951/
+tumor reoxy
+HIF-1
+VEGF
+bFGF
+hypoxi
+stress granule
+glutathione
+DNA synthesis
+G2/M
+cell-cycle progres
+p21
+GADD45
+pRb
+retinoblastoma
+RCP
+sp1
+DNA-PKcs
+DNAPK
+CDK4
+CDK6
+ribonucleotide reductase
+3-AP
+RKO
+RNR
+topoisomerase
+XRCC4
+DNA ligase
+Ku70
+XIP
+PARP
+Rad51
+Rad50
+Mre11
+Nbs1
+TRPM-2
+SGP-2

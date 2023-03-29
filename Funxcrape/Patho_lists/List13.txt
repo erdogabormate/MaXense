@@ -1,0 +1,3 @@
+Connective Tissue: Marfan-Syndrom, Aortenaneurysa Thorax
+ABCC6, ACTA2, CBS, COL3A1, FBN1, FBN2, MED12, MYH11, MYLK, NOTCH1, SKI, 
+SLC2A10, SMAD3, TGFB2, TGFBR1, TGFBR2

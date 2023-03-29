@@ -1,0 +1,20 @@
+Peroxisomal multifunctional enzyme type 2
+Fatty acid synthase
+ADP-ribosylhydrolase ARH1
+[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial
+Acireductone dioxygenase
+1,5-anhydro-D-fructose reductase
+14 kDa phosphohistidine phosphatase
+14-3-3 protein beta/alpha
+14-3-3 protein gamma
+14-3-3 protein zeta/delta
+1-acylglycerol-3-phosphate O-acyltransferase ABHD5
+1-phosphatidylinositol 3-phosphate 5-kinase
+"2,3-cyclic-nucleotide 3-phosphodiesterase"
+2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing], mitochondrial
+"2-5-oligoadenylate synthase 1A"
+26S proteasome regulatory subunit 4
+26S proteasome regulatory subunit 6B
+26S proteasome regulatory subunit 7
+26S proteasome non-ATPase regulatory subunit 10
+26S proteasome non-ATPase regulatory subunit 13

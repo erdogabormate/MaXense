@@ -1,0 +1,21 @@
+index	gene	protein_name	keyw_score	diff_exp	Angiogenesis (353)	Regulation (1277)	Inflammation & Immune response (413)	Macrophage (695)	Radiotolerance (266)	mTOR (108)	Cancer (565)	Apoptosis (379)	Autophagy (799)
+1	Hsd17b4	Peroxisomal multifunctional enzyme type 2	1	29%									
+2	Fasn	Fatty acid synthase	1	-19%	X								
+3	Adprh	ADP-ribosylhydrolase ARH1	0	20%			X						
+4	Pdk1	[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial	7	29%									
+5	Adi1	Acireductone dioxygenase	0	12%		X			X	X	X	X	X
+6	Akr1e2	1,5-anhydro-D-fructose reductase	0	11%									
+7	Phpt1	14 kDa phosphohistidine phosphatase	1	21%									
+8	Ywhab	14-3-3 protein beta/alpha	1	5%		X							
+9	Ywhag	14-3-3 protein gamma	1	22%		X							
+10	Ywhaz	14-3-3 protein zeta/delta	9	-8%		X							
+11	Abhd5	1-acylglycerol-3-phosphate O-acyltransferase ABHD5	3	14%	X	X		X				X	X
+12	Pikfyve	1-phosphatidylinositol 3-phosphate 5-kinase	6	6%		X		X					X
+13	Cnp	"2,3-cyclic-nucleotide 3-phosphodiesterase"	5	14%		X		X		X			X
+14	Decr1	2,4-dienoyl-CoA reductase [(3E)-enoyl-CoA-producing], mitochondrial	1	4%		X		X					X
+15	Oas1a	"2-5-oligoadenylate synthase 1A"	6	7%		X							
+16	Psmc1	26S proteasome regulatory subunit 4	2	9%		X	X	X			X		
+17	Psmc4	26S proteasome regulatory subunit 6B	1	-3%		X							X
+18	Psmc2	26S proteasome regulatory subunit 7	1	10%									X
+19	Psmd10	26S proteasome non-ATPase regulatory subunit 10	14	15%									X
+20	Psmd13	26S proteasome non-ATPase regulatory subunit 13	1	-5%		X	X			X	X	X	X

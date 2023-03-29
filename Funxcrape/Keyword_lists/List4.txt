@@ -1,0 +1,112 @@
+Macrophage
+macrophage
+M2
+M1
+M0
+polari
+myeloid
+TAM
+LPS
+TCA
+Arginase-I 
+remodelling
+granuloma
+BMDM
+antiinflam
+anti-inflam
+anti-microbial
+METosis
+cytokin
+phago
+homeostasis
+ameboid
+PAMP
+ROS
+reactive oxygen species
+pattern recognition 
+PRR
+TLR
+NLR
+RLR
+cytopalasmic dsDNA 
+transplantation
+nucleophilemonocyte
+v-ATPase
+vacuolar ATPase
+#         role in phagosome remodelling
+Rab5
+Rab7  
+Nox2
+Nos2
+NADPH oxidase
+oxide synthase
+NRAMP-1
+nutritional immunity
+chronic rejection
+RhoA
+#         polarization related pathways M1 and M2- like macrophages based on https://www.frontiersin.org/articles/10.3389/fimmu.2019.00792/full
+iNOS pathway
+citrulline 
+arginine
+arginase pathway
+ornithine
+urea
+lipopolysaccharide
+Th1 cytokin
+IFN-γ
+TNF-α
+TLR-2
+TLR-4
+CD80
+CD86
+MHC-II
+cytokines
+chemokines
+IL-1α
+IL-1β
+IL-6
+IL-12
+CXCL9
+CXCL10
+#            Transcription factors M1
+NF-kB 
+STAT1
+STAT5 
+IRF3
+IRF5
+# M2 polarization 
+IL-4
+IL-13
+IL-10
+IL4
+IL10
+IL13
+IL33
+IL-33
+TGF-β
+Th2
+mannitol
+CD206
+CD163
+CD209
+FIZZ1
+Ym1/2
+CCL1
+CCL17
+CCL18
+CCL22
+CCL24
+STAT6
+IRF4
+JMJD3
+PPARδ
+PPARγ
+AKT
+ERK1
+ERK2 
+RSK1
+RSK2
+CDK1
+AMPK
+GSK3
+phgdh
