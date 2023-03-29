@@ -1,14 +1,14 @@
 
-FunXcrape Bundle for functional proteomics analysis and scoring - 2nd Release mid 2022 (developed by Gabor Mate Erdo) free for public use, providing following reference:
-FunXcrape Bundle v1.1 - Gabor Máté Erdö 
+MaXense Bundle for functional proteomics analysis and scoring - 2nd Release mid 2022 (developed by Gabor Mate Erdo) free for public use, providing following reference:
+MaXense Bundle v1.1 - Gabor Máté Erdö 
 
 -------------
-Funxcrape 1.1 
+MaXense 1.1 
 -------------
 
 1. PURPOSE
 
-Funxcrape is a toolset for the support of genomic, transcriptomic and proteomic analysis by scraping relevant data from uniprot and implementing functional scoring.
+MaXense is a toolset for the support of genomic, transcriptomic and proteomic analysis by scraping relevant data from uniprot and implementing functional scoring.
 Data is generated in Microsoft Excel importable format - adequately to output for further Analysis. 
 A variety of tools to support this, their required input formats and outputs are described in detail in the following section.
 
